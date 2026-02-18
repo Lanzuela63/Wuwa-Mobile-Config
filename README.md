@@ -1,27 +1,29 @@
-/* ==============================
-OVERVIEW
-============================== */
+# **Wuwa Mobile Config**
 
-This repository contains two main configuration categories:
+Performance and graphics configuration presets for Wuthering Waves (Mobile) designed to help optimize gameplay based on device capability. These configs aim to improve FPS stability, visual quality, or provide a balanced gaming experience depending on your hardware.
 
-All Devices
-General configuration presets intended to work across a wide range of supported Android devices.
+## 📁 Overview
 
-Snapdragon
-Configurations optimized specifically for Qualcomm Snapdragon chipsets for better stability and performance consistency.
+This repository contains two main configuration folders:
 
-/* ==============================
-PERFORMANCE PRESETS & CHIPSET GUIDE
-============================== */
+### All Devices
 
-These chipset examples are based on devices commonly capable of running Wuthering Waves properly.
-Actual performance may vary depending on RAM, cooling, storage speed, and device optimization.
+General presets designed to work across most supported Android devices.
 
-/* LOW END */
+### Snapdragon
 
-Recommended for devices that struggle with default graphics or experience FPS drops.
+Presets specifically optimized for Qualcomm Snapdragon chipsets for better stability and performance consistency.
 
-Typical compatible chipsets:
+## ⚙️ Performance Presets & Recommended Chipsets
+
+These chipset suggestions are based on devices known to run Wuthering Waves properly.
+Actual performance may still vary depending on RAM, cooling, storage speed, and device optimization.
+
+### Low End
+
+Best for devices that struggle with default graphics or experience FPS drops.
+
+**Typical compatible chipsets:**
 
 Snapdragon 660 / 665 / 670 / 710
 
@@ -31,13 +33,13 @@ MediaTek Helio G85 / G88 / G95
 
 Dimensity 700 / 810
 
-Best for smoother gameplay over visuals.
+**Goal:** _Maximum smoothness over visuals._
 
-/* BALANCED PERFORMANCE */
+### Balanced Performance
 
-Focuses on stable FPS while keeping acceptable graphics quality.
+Focuses on stable FPS while maintaining acceptable graphics quality.
 
-Typical compatible chipsets:
+**Typical compatible chipsets:**
 
 Snapdragon 730 / 732G / 765G / 778G
 
@@ -45,13 +47,13 @@ Snapdragon 845 / 855
 
 Dimensity 900 / 920 / 1080
 
-Recommended for midrange devices running the game comfortably.
+**Goal:** _Smooth gameplay with decent visuals._
 
-/* BALANCED VISUAL */
+### Balanced Visual
 
 Better graphics while maintaining stable performance.
 
-Typical compatible chipsets:
+**Typical compatible chipsets:**
 
 Snapdragon 870 / 888
 
@@ -59,9 +61,9 @@ Snapdragon 7+ Gen 2
 
 Dimensity 1200 / 1300 / 8020
 
-Good balance between visual quality and performance.
+**Goal:** _Improved visuals without sacrificing stability._
 
-/* HIGH END */
+### High End
 
 Maximum visuals for flagship-level devices.
 
@@ -73,31 +75,29 @@ Snapdragon 8 Gen 2 / 8 Gen 3
 
 Dimensity 9000 / 9200 / 9300
 
-Recommended for high-end phones capable of stable high FPS gameplay.
+**Goal:** _Highest visual quality with stable high FPS._
 
-/* ==============================
-INSTALLATION
-============================== */
+## 📌 Installation
 
-Select either All Devices or Snapdragon folder.
+Choose either All Devices or Snapdragon folder.
 
-Choose the preset suitable for your device.
+Select the preset suitable for your device.
 
-Copy the config files to:
+**Copy the config files into this directory:**
 
-com.kurogames.wutheringwaves.global/files/UE4Game/Client/Client/Saved/Config/Android/
+<sub> com.kurogames.wutheringwaves.global/files/UE4Game/Client/Client/Saved/Config/Android/ </sub>
 
 
 Launch the game normally.
 
-/* ==============================
-IMPORTANT WARNING
-============================== */
+## ⚠️ Important Warning
 
-These configs are provided as-is without guarantees.
+**[!WARNING]**
 
-Performance varies depending on device hardware and system condition.
+These configs are provided as-is with **minimal** guarantees.
 
-I will NOT be responsible if you choose the wrong preset and experience crashes, performance issues, overheating, or game instability.
+Choosing the **wrong preset** may cause crashes, instability, overheating, or performance issues.
 
-Always back up your original config files before replacing anything.
+**I am NOT responsible** for any problems caused by **incorrect usage**.
+
+Always back up your original config files before replacing anything
