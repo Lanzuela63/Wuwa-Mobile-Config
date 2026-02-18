@@ -90,6 +90,12 @@ Select the preset suitable for your device.
 
 Launch the game normally.
 
+## Code Explanations (with images)
+https://alteriax.github.io/WuWa-Config-Info/
+
+## My Ko-Fi link
+https://ko-fi.com/geilan63
+
 ## ⚠️ Important Warning
 
 **[!WARNING]**
@@ -101,3 +107,7 @@ Choosing the **wrong preset** may cause crashes, instability, overheating, or pe
 **I am NOT responsible** for any problems caused by **incorrect usage**.
 
 Always back up your original config files before replacing anything
+
+## There is also a Similar GIthub for Wuwa PC
+
+https://github.com/AlteriaX/WuWa-Configs.git
